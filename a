@@ -1,0 +1,47 @@
+<div class='mainImage'>	
+	<div class='image'>
+		<div class="levo">
+			<
+		</div>
+
+		<div class="pravo">
+			>			
+		</div>
+	</div>
+
+	<div class='imgDiv'><img class="imgStyle "></img></div>
+</div>
+
+.mainImage {
+	width: 200px;
+	height: 200px;
+	
+}
+
+.imgDiv {
+	height: 100%;
+	width: 100%;
+}
+
+.image {
+	width: 200px;
+	height: 200px;
+	margin: auto auto;
+	border-radius: 12px;
+
+}
+
+.image{
+	visibility: hidden;
+}
+
+
+.mainImage:hover .image{
+	visibility: visible;
+}
+
+.imgStyle {
+	border-radius: 12px;
+	height: 100%;
+	width: 100%;
+}
