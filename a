@@ -151,3 +151,22 @@
 }
 
 
+.giantSizeInputBox {
+	resize: none;
+	height: 100px;
+	width: 600px;
+	border-radius: 5px;
+	padding: 7px;
+	background-color: #D9DADB;
+	font-size: 16px;
+	border: 1px solid gray;
+}
+
+.inputBox {
+	width: 200px;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 4px;
+	border: 1px solid gray;
+	margin: 0px 0px 5px 0px;
+}
